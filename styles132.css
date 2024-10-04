@@ -1,0 +1,66 @@
+#ejercicioUno {
+    display: block;
+    text-align: center;
+}
+#ejercicioDos {
+    border:1px #e5efff;
+    color: #e5efff ;
+}
+#ejercicioTres {
+    position:absolute;
+    top: 100px;
+    left: 200px;
+}
+#ejercicioCuatro {
+    display: block;
+    position: fixed;
+    top: 0;     
+    left: 0;
+    width: 100vw;
+    height: 125px;
+    background-color: #3574d2;
+    
+}
+#ejercicioCinco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0px 30px;
+    flex-direction: row-reverse;
+}
+
+#ejercicioSiete {
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+     border: 3px solid black;
+     position: relative;
+    background-color: black;
+     display: flex;
+   justify-content: space-around; /* Espacia los elementos de manera uniforme */
+    align-items: center; /* Centra los elementos verticalmente */
+    flex-direction: row; /* Coloca los elementos en una fila (esto es por defecto) */
+    }
+    
+    #elementoUno {
+    border: 2px dashed green;
+     align-self: flex-start; /* Coloca este elemento al principio del eje cruzado */
+    }
+    
+    #elementoDos {
+    border: 2px dashed orange;
+     align-self: center; /* Coloca este elemento en el centro del eje cruzado */
+    }
+    
+    #elementoTres {
+     border: 2px dashed blue;
+     align-self: flex-end; /* Coloca este elemento al final del eje cruzado */
+    }
+    
+    #elementoCuatro {
+ border: 2px dashed red;
+     align-self: stretch; /* Estira este elemento a lo largo del eje cruzado */
+    }
+    
